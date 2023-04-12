@@ -153,7 +153,25 @@ main{
     margin-bottom: 1.8em;
 }
 
+.artist{
+    color: #fff;
+}
 
+.artist-page{
+    display: flex;
+}
+
+.artist-button{
+    margin-left: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.artist-cover img{
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 2em;
+}
 /* Regole player inferiore */
 .player{
     position: fixed;
