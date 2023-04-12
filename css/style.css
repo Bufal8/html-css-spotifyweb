@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.disappear{
+    display: none;
+}
+
+.barra-laterale{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 7vw;
+    height: calc(100vh - 100px);
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+nav i{
+    font-size: 30px;
+    text-align: center;
+}
+
+.fa-spotify{
+    font-size: 35px;
+    color:#fff;
+}
