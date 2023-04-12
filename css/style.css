@@ -80,8 +80,8 @@ main{
     margin: 0 1.3em;
 }
 
-.audio h2{
-    margin: 3em auto;
+.container h2{
+    margin: 3em 1.3em;
     color: #fff;
 }
 
@@ -109,11 +109,11 @@ main{
     text-decoration: 2px underline #99E231;   
 }
 
-.container{
+/* .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 
 .album-title , .album-artist{
     max-width: 100%;
@@ -129,6 +129,28 @@ main{
     align-items: center;
     margin: 2em auto;
 
+}
+
+.mix{
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.album-mix{
+    display: flex;
+}
+
+.audio-mix h2{
+    margin-top: 3em;
+    margin-bottom: .3em;
+    margin-left: 1.3em;
+    color: #fff;
+}
+
+.audio-mix h4{
+    margin-left: 1.3em;
+    color: #4F5258;
+    margin-bottom: 1.8em;
 }
 
 
