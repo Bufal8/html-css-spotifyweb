@@ -12,6 +12,8 @@ body{
     display: none;
 }
 
+
+/* Regole Barra laterale */
 .barra-laterale{
     display: flex;
     color: #fff;
@@ -21,6 +23,7 @@ body{
     width: 7vw;
     height: calc(100vh - 100px);
     background-color: black;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -32,4 +35,15 @@ nav i{
 .fa-spotify{
     font-size: 35px;
     color:#fff;
+}
+
+/* Regole player inferiore */
+.player{
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+}
+
+.brano img{
+width: 2.8em;
 }
