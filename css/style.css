@@ -12,9 +12,14 @@ body{
     display: none;
 }
 
+/* .flexclass{
+    display: flex;
+    flex-direction: row;
+} */
 
 /* Regole Barra laterale */
 .barra-laterale{
+    position: fixed;
     display: flex;
     color: #fff;
     flex-direction: column;
@@ -25,6 +30,7 @@ body{
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 999;
 }
 
 nav i{
@@ -37,13 +43,152 @@ nav i{
     color:#fff;
 }
 
+/* regole banner upgrade */
+.banner{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    width: 100vw;
+}
+
+.banner button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 36px;
+    padding: 15px 35px; 
+    z-index: 0;
+}
+
+/* regole main */
+main{
+    background-color: #141922;
+    position: absolute;
+    left: 7vw;
+    z-index: -1;
+    width: 93vw;
+    padding-bottom: 100px;
+}
+
+.audio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1.3em;
+}
+
+.audio h2{
+    margin: 3em auto;
+    color: #fff;
+}
+
+.schede ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.schede a{
+    text-decoration: none;
+    color: #707378;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.schede a:hover{
+    text-decoration: 2px underline #99E231;
+}
+
+.schede a:active{
+    text-decoration: 2px underline #99E231;   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.album-title , .album-artist{
+    max-width: 100%;
+    color: #fff;
+    margin: .4em auto;
+    text-align: center;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em auto;
+
+}
+
+
 /* Regole player inferiore */
 .player{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
     background-color: #282828;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2em;
+}
+
+.brano{
     display: flex;
 }
 
 .brano img{
-width: 2.8em;
+    width: 2.8em;
+    margin-right: .7em;
+}
+
+.salva-brano{
+    margin-left: .7em;
+}
+
+.bottoni-player{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+}
+
+.timer{
+    border-radius: 5px;
+    margin: .4em .7em;
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.timer-player{
+    margin-top: 1.4em;
+    display: flex;
+
+}
+
+.bottoni-volume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.volume-player{
+    border-radius: 5px;
+    margin: .4em .7em;
+    height: 5px;
+    width: 50px;
+    background-color: #fff;
 }

@@ -13,55 +13,173 @@
 </head>
 <body>
     <!-- Barra comandi laterale -->
-    <nav class="barra-laterale">
-        <nav class="nav-principale">
-            <div class="logo">
-                <i class="fa-brands fa-spotify"></i>
-            </div>
-            <br>
-            <div class="home">
-                <i class="fa-sharp fa-solid fa-house"></i> <span class="disappear"> Home</span>
-            </div>
-            <br>
-            <div class="search">
-                <i class="fa-solid fa-magnifying-glass"></i> <span class="disappear"> Cerca</span>
-            </div>
-            <br>
-            <div class="library">
-                <i class="fa-solid fa-bars"></i> <span class="disappear"> La Tua Libreria</span>
-            </div>
-        </nav>
-            <!-- Nav playlist, scompare in xs -->
-        <nav class="nav-playlist disappear">
-            <h5>PLAYLIST</h5>
-            <i class="fa-solid fa-plus"></i> <span> Crea Playlist</span>
-            <span>Nome Playlist</span>
-            <span>Nome Playlist</span>
-            <span>Nome Playlist</span>
-            <span>Nome Playlist</span>
-            <span>Nome Playlist</span>
-        </nav>
-
-        <!-- Nav utente -->
-            <nav class="nav-user">
-                <div class="download">
-                    <i class="fa-regular fa-circle-down"></i> <span class="disappear">
-                        Installa app
-                        </span>
+    <div class="flexclass">
+        <nav class="barra-laterale">
+            <nav class="nav-principale">
+                <div class="logo">
+                    <i class="fa-brands fa-spotify"></i>
                 </div>
                 <br>
-                <div class="user">
-                    <i class="fa-solid fa-user"></i> <span class="disappear">John Doe</span>
+                <div class="home">
+                    <i class="fa-sharp fa-solid fa-house"></i> <span class="disappear"> Home</span>
                 </div>
-                
+                <br>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i> <span class="disappear"> Cerca</span>
+                </div>
+                <br>
+                <div class="library">
+                    <i class="fa-solid fa-bars"></i> <span class="disappear"> La Tua Libreria</span>
+                </div>
             </nav>
-        
-    </nav>
-        <!--  -->
-    <!-- Barra superiore upgrade -->
+                <!-- Nav playlist, scompare in xs -->
+            <nav class="nav-playlist disappear">
+                <h5>PLAYLIST</h5>
+                <i class="fa-solid fa-plus"></i> <span> Crea Playlist</span>
+                <span>Nome Playlist</span>
+                <span>Nome Playlist</span>
+                <span>Nome Playlist</span>
+                <span>Nome Playlist</span>
+                <span>Nome Playlist</span>
+            </nav>
 
+            <!-- Nav utente -->
+                <nav class="nav-user">
+                    <div class="download">
+                        <i class="fa-regular fa-circle-down"></i> <span class="disappear">
+                            Installa app
+                            </span>
+                    </div>
+                    <br>
+                    <div class="user">
+                        <i class="fa-solid fa-user"></i> <span class="disappear">John Doe</span>
+                    </div>
+                    
+                </nav>
+            
+        </nav>
+            <!--  -->
+        <!-- Barra superiore upgrade -->
+        <div class="banner">
+            <button> EFFETTUA L'UPGRADE</button>
+        </div>
+    </div>
     <!-- Corpo centrale pagina -->
-
+    <main>
+        <!-- Sezione superiore -->
+        <section>
+            <div class="schede">
+                <ul>
+                    <li class="sezioni"><a href="#">IN EVIDENZA</a></li>
+                    <li class="sezioni"><a href="#">PODCAST</a></li>
+                    <li class="sezioni"><a href="#">CLASSIFICHE</a></li>
+                    <li class="sezioni"><a href="#">GENERI E MOOD</a></li>
+                    <li class="sezioni"><a href="#">NUOVE USCITE</a></li>
+                    <li class="sezioni"><a href="#">SCOPRI</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- sezione centrale -->
+        <div class="container">
+            <h2>
+                Recently played
+            </h2>
+            <section class="audio">
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/metal_lifting.jpg" alt="">
+                    </div>
+                    <b class="album-title">
+                        Heavy Metal
+                    </b>
+                    <p class="album-artist">
+                        Subtitle
+                    </p>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/stranger.jpeg" alt="">
+                    </div>
+                    <b class="album-title">
+                        Stranger Things, Vol. <br>
+                        1 ( a Netflix Original <br>
+                        Series Soundtrack)
+                    </b>
+                    <p class="album-artist">
+                        Kyle Dixon & Michael Stein
+                    </p>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/aquietplace.jpeg" alt="">
+                    </div>
+                    <b class="album-title">
+                        A quiet place
+                    </b>
+                    <p class="album-artist">
+                        Subtitle
+                    </p>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/split.jpeg" alt="">
+                    </div>
+                    <b class="album-title">
+                        Split
+                    </b>
+                    <p class="album-artist">
+                        Subtitle
+                    </p>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/cure.jpeg" alt="">
+                    </div>
+                    <b class="album-title">
+                        A cure for wellness
+                    </b>
+                    <p class="album-artist">
+                        Subtitle
+                    </p>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/sinister.jpeg" alt="">
+                    </div>
+                    <b class="album-title">
+                        Sinister
+                    </b>
+                    <p class="album-artist">
+                        Subtitle
+                    </p>
+                </div>
+            </section>
+        </div>
+            <section class="audio-mix">
+                <h2>
+                    Creato per John Doe
+                </h2>
+                <h4>
+                    Più ascolti, più accurati saranno i suggerimenti.
+                </h4>
+                <div class="mix">
+                    <div class="album-cover">
+                        <img src="img/radar.jpeg" alt="">
+                    </div>
+                    <div class="album-title">
+                        Release Radar
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-cover">
+                        <img src="img/mixdaily.jpeg" alt="">
+                    </div>
+                    <div class="album-title">
+                        Daily Mix 1
+                    </div>
+                </div>
+            </section>
+    </main>
     <!-- Barra inferiore player -->
     <footer>
         <div class="player">
@@ -76,6 +194,7 @@
                 </div>
                 <div class="salva-brano">
                     <i class="fa-regular fa-heart"></i>
+                    <br>
                     <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
@@ -100,7 +219,9 @@
             <div class="volume">
                 <div class="bottoni-volume">
                     <i class="fa-solid fa-list-ul"></i>
+                    <br>
                     <i class="fa-solid fa-display"></i>
+                    <br>
                     <i class="fa-solid fa-volume-high"></i>
                     <div class="volume-player"></div>
                 </div>
