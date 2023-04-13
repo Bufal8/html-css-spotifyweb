@@ -33,6 +33,11 @@ body{
     z-index: 999;
 }
 
+.barra-laterale i:hover{
+    color: #99E231;
+    cursor: pointer;
+}
+
 nav i{
     font-size: 30px;
     text-align: center;
@@ -167,6 +172,19 @@ main{
     text-align: center;
 }
 
+.artist h2{
+    margin-top: 3em;
+    margin-bottom: .3em;
+    margin-left: 1.3em;
+    color: #fff;
+}
+
+.artist h4{
+    margin-left: 1.3em;
+    color: #4F5258;
+    margin-bottom: 1.8em;
+}
+
 .artist-cover img{
     border-radius: 50%;
     width: 80%;
@@ -199,11 +217,27 @@ main{
     margin-left: .7em;
 }
 
+.salva-brano .fa-regular:hover{
+    cursor: pointer;
+    color: #99E231;
+}
+
 .bottoni-player{
     width: 30vw;
     display: flex;
     justify-content: space-between;
     font-size: 1.4em;
+}
+
+.bottoni-player .fa-solid:hover{
+    cursor: pointer;
+    color: #99E231;
+}
+
+.fa-circle-play:hover{
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .timer{
@@ -223,6 +257,15 @@ main{
 .bottoni-volume{
     display: flex;
     justify-content: space-between;
+}
+
+.bottoni-volume .fa-solid{
+    padding-right: .3em;
+}
+
+.bottoni-volume .fa-solid:hover{
+    color: #99E231;
+    cursor: pointer;
 }
 
 .volume-player{
